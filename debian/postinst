@@ -17,6 +17,7 @@ case "$1" in
 		if [ -f $DEFAULT_GIMP_CONF ]; then
 			if dpkg-divert --package ${PACKAGE_NAME} --add  --rename  --divert ${DIVERTED_GIMP_CONF} ${DEFAULT_GIMP_CONF} ; then
 				ln -fs ${LLIUREX_GIMP_CONF} ${DEFAULT_GIMP_CONF} || true
+			fi
 		fi
 		
 		##
