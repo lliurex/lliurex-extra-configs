@@ -7,3 +7,4 @@
 # Preferences dialog.
 
 (theme "System")
+(icon-theme "Color")
