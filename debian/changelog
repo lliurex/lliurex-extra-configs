@@ -1,3 +1,9 @@
+lliurex-extra-configs (0.2.1) bionic; urgency=medium
+
+  * Gimprc minor edits
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 30 Jun 2020 08:50:34 +0200
+
 lliurex-extra-configs (0.2) bionic; urgency=medium
 
   * Added icon theme to gimp
